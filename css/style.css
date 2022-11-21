@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 46, 46);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-image: url(../img/patron-de-lineas-negro_2440x4320_xtrafondos.com.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+.pres h1{
+    color: rgb(0, 225, 255);
+    font-size: 60px;
+    font-weight: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.pres h2{
+    text-align: justify;
+    color: rgb(29, 224, 22);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin: 20px;
+}
+.pres img{
+    width: 30%;
+    height: 30%;
+}
+.pres p{
+    text-align: justify;
+    color: rgb(173, 252, 3);
+    background-color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+.pres .todalapres{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 30px 50px 30px;
+}
+.fotopres{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotopres img{
+    width: 250px;
+    height: 250px;
+}
+
+.fotopres img:hover{
+    width: 500px;
+    height: 500px;
+}
+.fotopres div{
+    width: 250px;
+    height: 290px;
+    border: 1px solid rgb(44, 44, 44);
+    text-align: center;
+    margin: 10px;
+}
+.fotopres a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(45, 45, 45);
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body h3{
+    text-align: center;
+    color: rgb(187, 0, 255);
+    background-color: black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copy{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+@media screen and (max-width:650px){
+    .pres .todalapres{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:450px){
+    .nosotros-inicio{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nosotros-titulo h1{
+    text-align: center;
+    color: rgb(22, 224, 197);
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nosotros-titulo h2{
+    text-align: center;
+    color: rgb(22, 224, 197);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nosotros-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nosotros-nosotros img{
+    width: 250px;
+    height: 250px;
+}
+.nosotros-nosotros div{
+    width: 250px;
+    height: 290px;
+    border: 1px solid rgb(44, 44, 44);
+    text-align: center;
+    margin: 10px;
+}
+.nosotros-nosotros a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(45, 45, 45);
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.historias-titulo h1{
+    text-align: center;
+    color: rgb(224, 224, 22);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.historias-titulo h2{
+    text-align: center;
+    color: rgb(226, 199, 44);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+.historias-contenedor {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 10px;
+    color: #444;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #444;
+    color: rgb(21, 225, 232);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.historias-contenedor img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
