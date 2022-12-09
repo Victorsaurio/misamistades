@@ -69,11 +69,13 @@ body {
 .fotopres {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .fotopres img {
     width: 250px;
     height: 250px;
+    align-items: center;
 }
 
 .fotopres img:hover {
@@ -106,6 +108,7 @@ body h3 {
 }
 .cancion2{
     display: none;
+    align-items: center;
 }
 
 .copy {
@@ -257,7 +260,9 @@ height: 40%;
     justify-content: center;
 
 }
-
+input:focus{
+    border: 5px solid green;
+}
 .acercade-to h2 {
     font-size: 25px;
     color: rgb(232, 52, 241);
@@ -268,7 +273,13 @@ height: 40%;
     justify-content: center;
     padding: 10pt 10pt 10pt 10pt;
 }
-
+.fotovac {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 30px 50px 30px;
+}
 .acercade-to p {
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -292,5 +303,10 @@ height: 40%;
     }
     .cancion2{
         display: flex;
+    }
+}
+@media screen and (max-width:360px){
+    .fotovac{
+        display: none;
     }
 }

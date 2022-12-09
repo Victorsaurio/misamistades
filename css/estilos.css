@@ -1,0 +1,108 @@
+body {
+  background-image: url(../img/patron-de-lineas-negro_2440x4320_xtrafondos.com.jpg);
+  background-size: cover;
+  background-repeat: repeat; }
+
+header nav ul a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 0px 5px 0px;
+  background-color: #2e2e2e;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.pres h1 {
+  color: #00ffe1;
+  font-size: 60px;
+  font-weight: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center; }
+
+.pres .todalapres {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 30px 50px 30px; }
+  .pres .todalapres h2 {
+    text-align: justify;
+    color: #1de016;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin: 20px; }
+
+.pres p {
+  text-align: justify;
+  color: #adfc03;
+  background-color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  padding: 10px; }
+
+.grid-contenedor-inicio .fotopres {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .grid-contenedor-inicio .fotopres .nosotros-inicio a {
+    text-decoration: none;
+    color: white;
+    background-color: #2d2d2d;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .grid-contenedor-inicio .fotopres img {
+    width: 250px;
+    height: 250px;
+    align-items: center; }
+  .grid-contenedor-inicio .fotopres div {
+    width: 250px;
+    height: 290px;
+    border: 1px solid #2c2c2c;
+    text-align: center;
+    margin: 10px; }
+  .grid-contenedor-inicio .fotopres div {
+    width: 250px;
+    height: 290px;
+    border: 1px solid #2c2c2c;
+    text-align: center;
+    margin: 10px; }
+  .grid-contenedor-inicio .fotopres div {
+    width: 250px;
+    height: 290px;
+    border: 1px solid #2c2c2c;
+    text-align: center;
+    margin: 10px; }
+
+h3 {
+  text-align: center;
+  color: #bb00ff;
+  background-color: black;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.cancion2 {
+  display: none;
+  align-items: center; }
+
+.copy {
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black; }
+
+@media screen and (max-width: 360px) {
+  main .todalapres img {
+    display: none; }
+  main .todalapres h2 {
+    text-align: center; }
+  .cancion {
+    display: none; }
+  .cancion2 {
+    display: flex; } }
